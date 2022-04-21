@@ -1,0 +1,6 @@
+framework module walletintel {
+  umbrella header "walletintel.h"
+
+  export *
+  module * { export * }
+}

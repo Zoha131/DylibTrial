@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+#if targetEnvironment(simulator)
+import walletintel
+#else
+import walletarm
+#endif
+
 struct ContentView: View {
     
     @State var walletPass: String = ""
