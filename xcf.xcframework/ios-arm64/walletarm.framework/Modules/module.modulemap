@@ -1,0 +1,6 @@
+framework module walletarm {
+  umbrella header "walletarm.h"
+
+  export *
+  module * { export * }
+}
